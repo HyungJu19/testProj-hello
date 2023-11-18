@@ -14,4 +14,7 @@ public class TestController {
     public void list(){}
 
 
+    @GetMapping("/asdf")
+    public void datail(){}
+
 }
