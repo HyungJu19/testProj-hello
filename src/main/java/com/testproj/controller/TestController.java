@@ -14,5 +14,8 @@ public class TestController {
     public void list(){}
 
 
+    @GetMapping("/detail")
+    public void detail(){}
+
 
 }
