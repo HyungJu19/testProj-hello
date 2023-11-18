@@ -14,5 +14,4 @@ public class TestController {
     public void list(){}
 
 
-반값읍니당
 }
