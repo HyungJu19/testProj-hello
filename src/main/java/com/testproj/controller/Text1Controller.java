@@ -11,8 +11,9 @@ public class Text1Controller {
         System.out.println("왜 안되는걸까요2");
 
 
-
         System.out.println("왜 안되는걸까요3");
+
+        System.out.println("진짜 좀 되라");
 
     }
 }
