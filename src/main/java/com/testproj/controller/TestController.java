@@ -17,4 +17,9 @@ public class TestController {
     @GetMapping("/asdf")
     public void datail(){}
 
+    @GetMapping("/asdf")
+    public void datail1(){}
+    @GetMapping("/asdf")
+    public void datail2(){}
+
 }
