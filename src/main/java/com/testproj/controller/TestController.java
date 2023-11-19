@@ -11,18 +11,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class TestController {
 
     @GetMapping("/list")
-    public void list(){}
+    public void list() {
+    }
 
 
-    @GetMapping("/asdf")
-    public void datail(){}
-
-    @GetMapping("/asdf")
-    public void datail1(){}
-    @GetMapping("/asdf")
-    public void datail2(){}
-
-
-    @GetMapping("/asdf")
-    public void datail3(){}
 }

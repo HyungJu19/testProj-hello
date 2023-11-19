@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Tourism Info Search</title>
+</head>
+<body>
+<h1>Tourism Info Search</h1>
+<form th:action="@{/tourism/info}" method="get">
+    <div>
+        <label for="type">Type:</label>
+        <input type="text" id="type" name="type" required>
+    </div>
+    <div>
+        <label for="areaCode">Area Code:</label>
+        <input type="text" id="areaCode" name="areaCode" required>
+    </div>
+    <div>
+        <button type="submit">Search</button>
+    </div>
+</form>
+</body>
+</html>
