@@ -1,0 +1,12 @@
+#centerMarker {
+    position: absolute;
+    top: 50%; /* 지도의 중앙에 위치 */
+    left: 50%;
+    z-index: 1;
+    margin-left: -10px; /* 마커의 크기에 따라 조정 */
+    margin-top: -10px;
+    height: 5px;
+    width: 5px;
+    background-color: red;
+    border-radius: 50%;
+}
